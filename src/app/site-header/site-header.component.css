@@ -37,17 +37,26 @@ h3 {
 }
 
 .nav-links {
+    margin-top: 10px;
     display: flex;
     gap: 10px;
+}
+
+hr {
+    border: 1px solid #FFFF;
+    width: 20%;            
 }
 
 .nav-links a {
     text-decoration: none;
     font-size: 1rem;
-    color: #333;
+    transition: color 0.3s ease-in-out;
 }
 
 .nav-links a.active {
-    font-weight: bold;
-    text-decoration: underline;
+    color: gray;
+}
+
+.nav-links a:hover {
+    color: gray;
 }
