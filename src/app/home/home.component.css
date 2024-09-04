@@ -1,0 +1,16 @@
+.home-content {
+    text-align: center;
+    padding: 20px;
+}
+  
+.home-content p:first-child {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+  
+.home-content p:last-child {
+    font-size: 1rem;
+    color: rgb(175, 175, 175);
+}
+  
