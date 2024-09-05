@@ -1,0 +1,21 @@
+[
+    {
+      "id": 1,
+      "name": "Project 1",
+      "description": "This is a description of Project 1.",
+      "image": "assets/images/project1.png",
+      "languages": ["JavaScript", "HTML", "CSS"],
+      "skills": ["Frontend Development", "UI/UX Design"],
+      "link": "www.google.com"
+    },
+    {
+      "id": 2,
+      "name": "Project 2",
+      "description": "This is a description of Project 2.",
+      "image": "assets/images/project2.png",
+      "languages": ["Python", "Django"],
+      "skills": ["Backend Development", "API Design"],
+      "link": "http://linktoproject2.com"
+    }
+]
+  

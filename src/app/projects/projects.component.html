@@ -1,1 +1,18 @@
-<p>projects works!</p>
+<div *ngFor="let project of projects" class="project-card">
+    <h2>{{ project.name }}</h2>
+    <img [src]="project.image" alt="{{ project.name }}" class="project-image">
+    <p>{{ project.description }}</p>
+  
+    <h4>Languages:</h4>
+    <ul>
+      <li *ngFor="let language of project.languages">{{ language }}</li>
+    </ul>
+  
+    <h4>Skills:</h4>
+    <ul>
+      <li *ngFor="let skill of project.skills">{{ skill }}</li>
+    </ul>
+  
+    <a [href]="project.link" target="_blank">View Project</a>
+</div>
+  
