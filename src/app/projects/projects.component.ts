@@ -8,7 +8,8 @@ interface Project {
   image: string;
   languages: string[];
   skills: string[];
-  link: string;
+  link?: string;
+  awards?: string[];
 }
 
 @Component({
