@@ -1,13 +1,11 @@
 .site-header {
     width: 100%;
-    position: fixed;
     top: 0;
     left: 0;
     z-index: 1;
 }
 
 .content {
-    margin-top: 180px;
     display: flex;
     justify-content: center;
 }

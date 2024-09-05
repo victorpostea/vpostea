@@ -13,6 +13,13 @@
       <li *ngFor="let skill of project.skills">{{ skill }}</li>
     </ul>
   
-    <a [href]="project.link" target="_blank">View Project</a>
+    <a 
+        [href]="project.link || 'javascript:void(0)'" 
+        [ngClass]="{'disabled': !project.link}" 
+        (click)="project.link ? null : $event.preventDefault()"
+        target="_blank">
+        View Project
+    </a>
+
 </div>
   

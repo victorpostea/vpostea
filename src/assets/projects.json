@@ -3,10 +3,9 @@
       "id": 1,
       "name": "StockAI",
       "description": "A project that web scrapes real-time stock data and utilizes a reinforcement learning algorithm to provide dynamic recommendations on buying or selling portions of your portfolio based on market trends.",
-      "image": "assets/images/project1.png",
-      "languages": ["Python", "Javascript", "HTML/CSS"],
-      "skills": ["Machine Learning", "Angular"],
-      "link": "www.google.com"
+      "image": "assets/imgs/stockai-pic.png",
+      "languages": ["Python", "Javascript", "HTML / CSS"],
+      "skills": ["Machine Learning", "Angular"]
     },
     {
       "id": 2,
