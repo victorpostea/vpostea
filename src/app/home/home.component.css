@@ -5,6 +5,12 @@
   
 .home-content p:first-child {
     font-size: 1rem;
-    margin-bottom: 15px;
+    margin-bottom: 5vh;
 }
-  
+
+.ascii-donut {
+    font-size: 15px;
+    line-height: 1.2;
+    white-space: pre;
+    color: white;
+}
