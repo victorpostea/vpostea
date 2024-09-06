@@ -1,6 +1,32 @@
+#email-links {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+#email-links a {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+#email-links img {
+    display: block;
+    margin: 0 auto;
+}
+
+#email-links p {
+    font-size: 0.8rem;
+    margin-top: 5px;
+}
+
 .links {
     display: flex;
     gap: 75px;
+    justify-content: center;
 }
 
 a {
@@ -10,4 +36,13 @@ a {
 
 a:hover {
     color: gray;
+}
+
+#smaller {
+    font-size: 0.8rem;
+}
+
+p {
+    display: flex;
+    justify-content: center;
 }
