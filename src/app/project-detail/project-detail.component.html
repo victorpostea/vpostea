@@ -1,0 +1,34 @@
+<div class="project-detail-container">
+    <h1>{{ project?.name }}</h1>
+    <img [src]="project?.image" alt="{{ project?.name }}" class="project-image" style="max-width: 400px;">
+    <p>{{ project?.description }}</p>
+
+    <h4>Languages:</h4>
+    <ul>
+      <li *ngFor="let language of project?.languages">{{ language }}</li>
+    </ul>
+
+    <h4>Skills:</h4>
+    <ul>
+      <li *ngFor="let skill of project?.skills">{{ skill }}</li>
+    </ul>
+
+    <div *ngIf="project?.awards">
+      <h4>Awards:</h4>
+      <ul>
+        <li *ngFor="let award of project?.awards">{{ award }}</li>
+      </ul>
+    </div>
+
+    <!-- Button for GitHub -->
+    <a *ngIf="project?.githubLink" [href]="project?.githubLink" target="_blank" class="github">GitHub</a>
+
+    <!-- Button for LinkedIn -->
+    <a *ngIf="project?.linkedinLink" [href]="project?.linkedinLink" target="_blank" class="linkedin">LinkedIn</a>
+
+    <!-- Button for Live Project -->
+    <a *ngIf="project?.liveProjectLink" [href]="project?.liveProjectLink" target="_blank" class="live-project">View Live Project</a>
+
+    <!-- Button to go back to projects page-->
+    <button (click)="goBack()" class="back-button">Back to Projects Page</button>
+</div>

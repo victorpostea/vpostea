@@ -1,5 +1,6 @@
 import { HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 interface Project {
   id: number;
@@ -20,12 +21,15 @@ interface Project {
 export class ProjectsComponent implements OnInit {
   projects: Project[] = [];
 
-  constructor(private http: HttpClient) { }
+  constructor(private http: HttpClient, private router: Router) { }
 
   ngOnInit(): void {
     this.http.get<Project[]>('assets/projects.json').subscribe(data => {
       this.projects = data;
     });
   }
-}
 
+  navigateToProjectDetail(projectId: number): void {
+    this.router.navigate(['/projects', projectId]);
+  }
+}

@@ -1,31 +1,31 @@
 [
-    {
-      "id": 1,
-      "name": "StockAI",
-      "description": "A project that web scrapes real-time stock data and utilizes a reinforcement learning algorithm to provide dynamic recommendations on buying or selling portions of your portfolio based on market trends.",
-      "image": "assets/imgs/ai-pic.jpeg",
-      "languages": ["Python", "Javascript", "HTML / CSS"],
-      "skills": ["Machine Learning", "Angular"]
-    },
-    {
-      "id": 3,
-      "name": "Quantum Computing Rebalancing Algorithm",
-      "description": "The project involved developing a quantum computing-based algorithm to optimize bike redistribution for Toronto’s Tangerine rideshare program by analyzing station usage trends and determining efficient rebalancing routes to maintain optimal station inventory levels.",
-      "image": "assets/imgs/quantum-pic.jpg",
-      "languages": ["Python", "R"],
-      "skills": ["Web Scraping", "Statistical Anaylsis", "Quantum Computing"],
-      "awards": ["1st Place at Western University's Quantum Engineering Hackathon - 2024"],
-      "link": "https://www.linkedin.com/in/victor-postea-070556298/details/projects/"
-    },
-    {
-      "id": 2,
-      "name": "Automated Syringe Doser",
-      "description": "A compact robotic device that helps visually impaired individuals safely and independently dose their medications through tactile buttons and audio cues.",
-      "image": "assets/imgs/syringedose-pic.jpeg",
-      "languages": ["Python"],
-      "skills": ["Backend Development", "Arduino", "Engineering Design", "Circuits"],
-      "awards": ["2nd Place at Western University's Engineering Design Showcase - 2023"],
-      "link": "https://www.linkedin.com/in/victor-postea-070556298/details/projects/"
-    }
+  {
+    "id": 1,
+    "name": "StockAI",
+    "description": "A project that web scrapes real-time stock data and utilizes a reinforcement learning algorithm to provide dynamic recommendations on buying or selling portions of your portfolio based on market trends.",
+    "image": "assets/imgs/ai-pic.jpeg",
+    "languages": ["Python", "Javascript", "HTML / CSS"],
+    "skills": ["Machine Learning", "Angular"]
+  },
+  {
+    "id": 3,
+    "name": "Quantum Computing Rebalancing Algorithm",
+    "description": "The project involved developing a quantum computing-based algorithm to optimize bike redistribution for Toronto’s Tangerine rideshare program by analyzing station usage trends and determining efficient rebalancing routes to maintain optimal station inventory levels.",
+    "image": "assets/imgs/quantum-pic.jpg",
+    "languages": ["Python", "R"],
+    "skills": ["Web Scraping", "Statistical Anaylsis", "Quantum Computing"],
+    "awards": ["1st Place at Western University's Quantum Engineering Hackathon - 2024"],
+    "githubLink": "https://github.com/victorpostea/Quantum-Hackathon",
+    "linkedinLink": "https://www.linkedin.com/in/victor-postea-070556298/details/projects/"
+  },
+  {
+    "id": 2,
+    "name": "Automated Syringe Doser",
+    "description": "A compact robotic device that helps visually impaired individuals safely and independently dose their medications through tactile buttons and audio cues.",
+    "image": "assets/imgs/syringedose-pic.jpeg",
+    "languages": ["Python"],
+    "skills": ["Backend Development", "Arduino", "Engineering Design", "Circuits"],
+    "awards": ["2nd Place at Western University's Engineering Design Showcase - 2023"],
+    "linkedinLink": "https://www.linkedin.com/in/victor-postea-070556298/details/projects/"
+  }
 ]
-  
