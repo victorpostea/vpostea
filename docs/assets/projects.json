@@ -1,0 +1,45 @@
+[
+  {
+    "id": 1,
+    "name": "StockAI",
+    "description": "A project that web scrapes real-time stock data and utilizes a reinforcement learning algorithm to provide dynamic recommendations on buying or selling portions of your portfolio based on market trends.",
+    "short_desc": "Reinforcement learning algorithm to predict stock data and give you portfolio suggestions.",
+    "image": "assets/imgs/ai-pic.jpeg",
+    "languages": ["Python", "Javascript", "HTML / CSS"],
+    "skills": ["Machine Learning", "Angular"]
+  },
+  {
+    "id": 3,
+    "name": "Quantum Computing Rebalancing Algorithm",
+    "description": "The project involved developing a quantum computing-based algorithm to optimize bike redistribution for Toronto’s Tangerine rideshare program by analyzing station usage trends and determining efficient rebalancing routes to maintain optimal station inventory levels.",
+    "short_desc": "Quantum computing-based algorithm to optimize bike redistribution for Toronto's tangerine rideshare.",
+    "image": "assets/imgs/quantum-pic.jpg",
+    "languages": ["Python", "R"],
+    "skills": ["Web Scraping", "Statistical Anaylsis", "Quantum Computing"],
+    "awards": ["1st Place at Western University's Quantum Engineering Hackathon - 2024"],
+    "githubLink": "https://github.com/victorpostea/Quantum-Hackathon",
+    "linkedinLink": "https://www.linkedin.com/in/victor-postea-070556298/details/projects/"
+  },
+  {
+    "id": 2,
+    "name": "Automated Syringe Doser",
+    "description": "A compact robotic device that helps visually impaired individuals safely and independently dose their medications through tactile buttons and audio cues.",
+    "short_desc": "Small robotic device to assist visually and dexterity impaired individuals safely dose syringes.",
+    "image": "assets/imgs/syringedose-pic.jpeg",
+    "languages": ["Python"],
+    "skills": ["Backend Development", "Arduino", "Engineering Design", "Circuits"],
+    "awards": ["2nd Place at Western University's Engineering Design Showcase - 2023"],
+    "linkedinLink": "https://www.linkedin.com/in/victor-postea-070556298/details/projects/"
+  },
+  {
+    "id": 4,
+    "name": "Interactive Portfolio Website",
+    "description": "A personal portfolio showcasing various projects, skills, and achievements. Built with Angular for a dynamic and responsive user experience, including detailed project pages and links to GitHub, LinkedIn, and live project demos.",
+    "short_desc": "My personal portfolio. Showcases projects, skills and achievements.",
+    "image": "assets/imgs/portfolio-pic.webp",
+    "languages": ["Angular", "TypeScript", "HTML/CSS"],
+    "skills": ["Web Development", "Responsive Design", "Frontend Frameworks"],
+    "githubLink": "https://github.com/victorpostea/vpostea",
+    "liveProjectLink": "https://victorpostea.github.io/vpostea/home"
+  }
+]
