@@ -1,8 +1,10 @@
 <div class="projects-grid">
   <div *ngFor="let project of projects" class="project-card" (click)="navigateToProjectDetail(project.id)">
-    <h2>{{ project.name }}</h2>
-    <img [src]="project.image" alt="{{ project.name }}" class="project-image">
-    <p>{{ project.description }}</p>
+    <h2 id="name">{{ project.name }}</h2>
+    <div id="img-container">
+      <img [src]="project.image" alt="{{ project.name }}" class="project-image">
+    </div>
+    <p class="project-desc">{{ project.short_desc }}</p>
 
     <!-- Add Awards Section Conditionally -->
     <div *ngIf="project.awards && project.awards.length > 0">

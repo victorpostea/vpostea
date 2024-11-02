@@ -6,6 +6,7 @@ interface Project {
   id: number;
   name: string;
   description: string;
+  short_desc: string;
   image: string;
   languages: string[];
   skills: string[];
