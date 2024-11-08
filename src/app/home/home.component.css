@@ -13,4 +13,6 @@
     line-height: 1.2;
     white-space: pre;
     color: white;
+    display: flex;
+    justify-content: center;
 }
