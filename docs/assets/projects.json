@@ -1,13 +1,24 @@
 [
   {
-    "id": 1,
-    "name": "StockAI",
-    "description": "A project that web scrapes real-time stock data and utilizes a reinforcement learning algorithm to provide dynamic recommendations on buying or selling portions of your portfolio based on market trends.",
-    "short_desc": "Reinforcement learning algorithm to predict stock data and give you portfolio suggestions.",
-    "image": "assets/imgs/ai-pic.jpeg",
-    "languages": ["Python", "Javascript", "HTML / CSS"],
-    "skills": ["Machine Learning", "Angular"]
+    "id": 5,
+    "name": "TutorAI",
+    "description": "An AI-powered application that allows users to upload lecture slides or PDFs and generates quizzes based on the content using OpenAI's API. The platform helps students reinforce learning by creating interactive and dynamic quiz questions tailored to their study materials.",
+    "short_desc": "AI-driven quiz generator from lecture slides and PDFs.",
+    "image": "assets/imgs/tutorai.jpg",
+    "languages": ["Python", "TypeScript", "HTML / CSS", "SQL"],
+    "skills": ["Natural Language Processing", "Angular", "Flask", "APIs", "RESTapis", "Docker", "AWS"],
+    "liveProjectLink": "https://tutorai-b3ud.onrender.com/home"
   },
+  {
+    "id": 6,
+    "name": "Database Generator",
+    "description": "A backend and database system for an in-progress project with the Western Quantum Computing Club. This project generates a Neo4j (GraphQL) database and populates it with clusters of bikeshare stations retrieved from APIs. It optimizes bike redistribution using a quantum computing-based clustering algorithm, ensuring efficient availability across stations.",
+    "short_desc": "Generates and populates a Neo4j (GraphQL) database for bikeshare clustering.",
+    "image": "assets/imgs/bikeshare.png",
+    "languages": ["Python", "NEO4j", "GraphQL"],
+    "skills": ["Clustering Algorithms", "Flask", "Data Analytics", "GraphQL", "REST APIs"],
+    "githubLink": "https://github.com/victorpostea/bikeshare"
+  },    
   {
     "id": 3,
     "name": "Quantum Computing Rebalancing Algorithm",
@@ -30,6 +41,15 @@
     "skills": ["Backend Development", "Arduino", "Engineering Design", "Circuits"],
     "awards": ["2nd Place at Western University's Engineering Design Showcase - 2023"],
     "linkedinLink": "https://www.linkedin.com/in/victor-postea-070556298/details/projects/"
+  },
+  {
+    "id": 1,
+    "name": "StockAI",
+    "description": "A project that web scrapes real-time stock data and utilizes a reinforcement learning algorithm to provide dynamic recommendations on buying or selling portions of your portfolio based on market trends.",
+    "short_desc": "Reinforcement learning algorithm to predict stock data and give you portfolio suggestions.",
+    "image": "assets/imgs/ai-pic.jpeg",
+    "languages": ["Python", "Javascript", "HTML / CSS"],
+    "skills": ["Machine Learning", "Angular"]
   },
   {
     "id": 4,
