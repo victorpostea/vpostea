@@ -10,6 +10,17 @@
     "liveProjectLink": "https://tutorai-b3ud.onrender.com/home"
   },
   {
+    "id": 7,
+    "name": "Enhancing Road Safety with Thermal Imaging",
+    "description": "Excited to share this thermal detection project that I developed for a hackathon hosted by Western Engineering & General Motors! Autonomous vehicles face a critical challenge: detecting obstacles in low-visibility conditions like nighttime, fog, or bad weather. Traditional cameras often struggle, but thermal cameras can capture heat signatures, making them valuable for identifying road users even in complete darkness. We built an embedded road user detection system that processes thermal camera feeds in real time, identifies pedestrians, cyclists, and vehicles with bounding boxes & confidence scores, and runs on a Raspberry Pi 5 for lightweight deployment.",
+    "short_desc": "Thermal imaging-based road user detection system for autonomous vehicle safety.",
+    "image": "assets/imgs/thermal_final.jpg",
+    "languages": ["Python", "Embedded C"],
+    "skills": ["Computer Vision", "Embedded Systems", "AI for Safety", "Machine Learning"],
+    "githubLink": "https://github.com/victorpostea/thermal_detection",
+    "linkedinLink": "https://www.linkedin.com/in/victor-postea-070556298/details/projects/"
+  },
+  {
     "id": 6,
     "name": "Database Generator",
     "description": "A backend and database system for an in-progress project with the Western Quantum Computing Club. This project generates a Neo4j (GraphQL) database and populates it with clusters of bikeshare stations retrieved from APIs. It optimizes bike redistribution using a quantum computing-based clustering algorithm, ensuring efficient availability across stations.",
