@@ -1,5 +1,16 @@
 [
   {
+    "id": 1,
+    "name": "qcrypto",
+    "description": "A Python library providing simple, Pythonic access to post-quantum cryptography using the Open Quantum Safe (liboqs) project. Includes support for Kyber and Classic McEliece key encapsulation, Dilithium, Falcon, and SPHINCS+ signatures, as well as a hybrid PQC + AES-GCM encryption scheme with streaming file support. Features fully documented public docs, versioned ciphertext formats with corruption detection, stable key fingerprints, and a tested end-to-end API for both messages and files.",
+    "short_desc": "Post-quantum cryptography library for Python with hybrid encryption and streaming file support.",
+    "image": "assets/imgs/qcrypto_img.webp",
+    "languages": ["Python"],
+    "skills": ["Cryptography", "Post-Quantum Cryptography", "Cryptographic APIs", "Open Source", "Library Design", "Documentation"],
+    "githubLink": "https://github.com/victorpostea/qcrypto",
+    "liveProjectLink": "https://qcrypto.vpostea.com"
+  },
+  {
     "id": 5,
     "name": "TutorAI",
     "description": "An AI-powered application that allows users to upload lecture slides or PDFs and generates quizzes based on the content using OpenAI's API. The platform helps students reinforce learning by creating interactive and dynamic quiz questions tailored to their study materials.",
@@ -7,7 +18,7 @@
     "image": "assets/imgs/tutorai.jpg",
     "languages": ["Python", "TypeScript", "HTML / CSS", "SQL"],
     "skills": ["Natural Language Processing", "Angular", "Flask", "APIs", "RESTapis", "Docker", "AWS"],
-    "liveProjectLink": "https://tutorai-b3ud.onrender.com/home"
+    "githubLink": "https://github.com/victorpostea/TutorAI/"
   },
   {
     "id": 7,
@@ -52,15 +63,6 @@
     "skills": ["Backend Development", "Arduino", "Engineering Design", "Circuits"],
     "awards": ["2nd Place at Western University's Engineering Design Showcase - 2023"],
     "linkedinLink": "https://www.linkedin.com/in/victor-postea-070556298/details/projects/"
-  },
-  {
-    "id": 1,
-    "name": "StockAI",
-    "description": "A project that web scrapes real-time stock data and utilizes a reinforcement learning algorithm to provide dynamic recommendations on buying or selling portions of your portfolio based on market trends.",
-    "short_desc": "Reinforcement learning algorithm to predict stock data and give you portfolio suggestions.",
-    "image": "assets/imgs/ai-pic.jpeg",
-    "languages": ["Python", "Javascript", "HTML / CSS"],
-    "skills": ["Machine Learning", "Angular"]
   },
   {
     "id": 4,
