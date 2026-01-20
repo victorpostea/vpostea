@@ -1,6 +1,7 @@
 services:
   portfolio:
-    build: .
+    image: victorpostea/portfolio:latest
+    # build: .  # uncomment to build locally instead
     container_name: portfolio
     restart: unless-stopped
     networks:
